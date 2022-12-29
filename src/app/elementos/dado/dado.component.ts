@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./dado.component.css']
 })
 export class DadoComponent {
-  numero:number = 0;
+  numero:number = 1;
   memoria=[0];
   lanzar(){
     //--------------- Elige un numero random --------------------
